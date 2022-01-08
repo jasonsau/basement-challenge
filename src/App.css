@@ -1,0 +1,19 @@
+@font-face {
+    src: url('assets/fonts/basement-grotesqueRegularRegular.woff2');
+    font-family: basement-grotesqueRegularRegular;
+}
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
