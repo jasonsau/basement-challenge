@@ -1,12 +1,14 @@
+import { Footer } from 'components/Footer';
 import { Header } from 'components/Header'
-import { Product } from 'components/Product';
+import { ListProducts } from 'components/ListProducts';
 import './App.css';
 
 function App() {
     return (
         <div className="App">
             <Header />
-            <Product />
+            <ListProducts />
+            <Footer />
         </div>
     );
 }
