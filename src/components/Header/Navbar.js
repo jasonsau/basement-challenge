@@ -1,10 +1,16 @@
 import Modal from 'components/Modal';
 import { Cart } from 'components/Cart';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import logo from 'assets/img/logo.svg';
 export function Navbar() {
 
     const [ showModal, setShowModal ] = useState(false);
+    const [ count, setCount ] = useState(0);
+
+    useEffect(() => {
+        console.log(count);
+    }, [setCount, count])
+
 
     const handleClick = () => {
         setShowModal(true);
@@ -24,7 +30,7 @@ export function Navbar() {
                     className = "header__button"
                     onClick = { handleClick }
                 >
-                    CART (0)
+                    CART ({count})
                 </button>
             </header>
             { showModal? (<Modal onClose = { handleClose }><Cart /></Modal>): '' }

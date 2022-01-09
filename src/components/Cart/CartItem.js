@@ -1,17 +1,17 @@
-export function CartItem() {
+export function CartItem({item}) {
 
     return (
         <div className = "cart__item">
             <div className = "cart__item--first">
                 <img 
-                    src = "https://i.ibb.co/jRFMn4Z/shirt.png" 
+                    src = { item.imgProduct } 
                     alt = "icon-product" 
                     className = "item__img"
                 />
             </div>
             <div className = "cart__item--second">
-                <h2 className = "item__name">BLACK T-SHIRT</h2>
-                <span className = "item__description">Unisex Basic T-Shirt</span>
+                <h2 className = "item__name">{ item.nameProduct }</h2>
+                <span className = "item__description">{ item.descriptionProduct }</span>
                 <div className = "cart__selects">
                     <div className = "cart__select">
                         <label htmlFor = "input-number" className = "cart__label">
@@ -22,6 +22,7 @@ export function CartItem() {
                             id = "input-number" 
                             min = "1" 
                             className = "cart__input"
+                            value = { item.quantityProduct }
                         />
                     </div>
                     <div className = "cart__size">
@@ -70,7 +71,7 @@ export function CartItem() {
                     </div>
                 </div>
                 <div className = "cart__price">
-                    <span >$12,50</span>
+                    <span >{ item.priceProduct }</span>
                 </div>
             </div>
         </div>

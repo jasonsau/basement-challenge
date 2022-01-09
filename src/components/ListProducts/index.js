@@ -13,6 +13,7 @@ export function ListProducts() {
                         imgProduct = { imgProduct } 
                         nameProduct = { nameProduct } 
                         price = { priceProduct }
+                        id = {id}
                     />
                 ))
             }
