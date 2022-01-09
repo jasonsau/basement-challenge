@@ -1,17 +1,23 @@
 [
     {
+        "id": 1,
         "nameProduct": "Black t-shirt",
-        "imgProduct": "",
-        "priceProduct": "$7.95"
+        "imgProduct": "https://i.ibb.co/jRFMn4Z/shirt.png",
+        "priceProduct": "$7.95",
+        "description": "Unisex Basic T-Shirt"
     },
     {
+        "id": 2,
         "nameProduct": "Black cap",
-        "imgProduct": "",
-        "priceProduct": "$23"
+        "imgProduct": "https://i.ibb.co/Lk7Vbw5/cap.png",
+        "priceProduct": "$23",
+        "description": "Unisex Basic Black-Cap"
     },
     {
+        "id": 3,
         "nameProduct": "Black hoodie",
-        "imgProduct": "",
-        "priceProduct": "$13"
+        "imgProduct": "https://i.ibb.co/p4hL2bN/hoodie.png",
+        "priceProduct": "$13",
+        "description": "Unisex Basic Black-Hoodi"
     }
 ]

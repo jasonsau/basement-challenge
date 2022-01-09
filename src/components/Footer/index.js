@@ -3,7 +3,7 @@ import './styles.css';
 
 export function Footer() {
     return (
-        <footer class = "footer">
+        <footer className = "footer">
             <img src = {footer} alt = "icon-footer" className = "footer__img"/>
         </footer>
     )

@@ -1,0 +1,9 @@
+.modal {
+    width: 700px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 200;
+    background-color: #000;
+}
+

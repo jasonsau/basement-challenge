@@ -1,0 +1,142 @@
+.item__img {
+    display: block;
+    width: 200px;
+    height: 190px;
+}
+.cart {
+    border-left: 1px solid #fff;
+    position: relative;
+}
+.cart__close {
+    position: absolute;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-family: basement-grotesqueRegularRegular;
+    font-weight: 700;
+    color: #fff;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.cart__title {
+    margin-top: 15px;
+    font-family: basement-grotesqueRegularRegular;
+    font-weight: 700;
+    font-size: 100px;
+    text-align: center;
+}
+
+.cart__title--dark {
+    -webkit-text-stroke: 1px #fff;
+    color: #000;
+}
+
+.cart__item {
+    border: 1px solid #fff;
+    width: 90%;
+    position: relative;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.cart__item--second {
+    padding-left: 20px;
+    position: relative;
+}
+
+.item__name {
+    position: absolute;
+    font-family: basement-grotesqueRegularRegular;
+    font-weight: 700;
+    font-size: 30px;
+    top: 10px;
+}
+
+
+.item__description {
+    position: absolute;
+    font-family: basement-grotesqueRegularRegular;
+    color: #999;
+    font-weight: 700;
+    font-size: 20px;
+    top: 45px;
+}
+
+.cart__selects {
+    position: absolute;
+    bottom: 20px;
+}
+.cart__select {
+    margin-bottom: 10px;
+}
+
+.cart__footer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #fff;
+    border-left: none;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.cart__label {
+    font-family: basement-grotesqueRegularRegular;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.cart__option {
+    font-family: basement-grotesqueRegularRegular;
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.cart__checkout {
+    -webkit-text-stroke: 1px #fff;
+    color: #000;
+    font-size: 30px;
+    font-family: basement-grotesqueRegularRegular;
+    font-weight: 700;
+    border: none;
+    border-left: 1px solid #fff;
+    padding-left: 20px;
+    padding-top: 5px;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.cart__size {
+    display: flex;
+    flex-direction: row;
+}
+
+.cart__input {
+    width: 50px;
+    height: 20px;
+    font-family: basement-grotesqueRegularRegular;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center
+}
+
+.cart__price {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-family: basement-grotesqueRegularRegular;
+    font-weight: 700;
+    font-size: 30px;
+
+}
